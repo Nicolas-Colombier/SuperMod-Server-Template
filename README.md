@@ -27,7 +27,6 @@
 
 - You must put the configuration files inside your ServerConfig directory
   * **Windows** : `C:\$InstallationFolder\SquadGame\ServerConfig\`
-  <br>
   * **Linux** : `/home/$InstallationFolder/SquadGame/ServerConfig/`
 
 <br>
