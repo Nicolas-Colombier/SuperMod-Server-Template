@@ -2,7 +2,7 @@
 
 <br>
 
-<img src="Logo/SuperMod_logo.jpg" alt="Logo" width="500"/>
+<img src="Logo/SuperMod_logo.png" alt="Logo" width="500"/>
 
 <h1 align="center">SuperMod Server Template</h1>
 
@@ -64,8 +64,8 @@ Specify the factions you do not want to be part of your map vote pool. We recomm
 <br>
 
 ## Miscellaneous
-- Steam Mod ID : ****
-- Steam Workshop URL : ****
+- Steam Mod ID : **3293347373**
+- Steam Workshop URL : https://steamcommunity.com/sharedfiles/filedetails/?id=3293347373
 - Make sure to copy these files into the proper directory ! If you have any questions, feel free to create an issue or contact me on Discord : **nom4de**.
 
 <br>
