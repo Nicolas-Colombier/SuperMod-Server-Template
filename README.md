@@ -42,7 +42,7 @@
 
 <br>
 
-## Levels/Layers for map voting *(NOT WORKING)*
+## Levels/Layers for map voting
 - [VoteConfig.cfg](https://github.com/Nicolas-Colombier/SuperMod-Server-Template/blob/main/ServerConfig/VoteConfig.cfg)  → Specify your map vote configuration such as, the amount of layers, faction selection, game modes, mode redundancy, etc...
 - [ExcludedLayers.cfg](https://github.com/Nicolas-Colombier/SuperMod-Server-Template/blob/main/ServerConfig/ExcludedLayers.cfg) → Specify the layers you do not want to be part of your map vote pool. We recommend to exclude broken layers if you find any and follow our configuration to avoid weird matchup.
 - [ExcludedLevels.cfg](https://github.com/Nicolas-Colombier/SuperMod-Server-Template/blob/main/ServerConfig/ExcludedLevels.cfg) → Specify the Level id that you do not want to be part of your map vote pool. We recommend to exclude broken levels.
@@ -57,9 +57,9 @@ Specify the factions you do not want to be part of your map vote pool. We recomm
 
 ## Levels/Layers for standard rotation
 - [_SuperModLayerTemplate.cfg](https://github.com/Nicolas-Colombier/SuperMod-Server-Template/blob/main/ServerConfig/_SuperModLayerTemplate.cfg) → The entire SuperMod Layer list. Feel free to pick your layers from this configuration file.
-- [_SuperModLevelTemplate.cfg](https://github.com/Nicolas-Colombier/SuperMod-Server-Template/blob/main/ServerConfig/_SuperModLevelTemplate.cfg) → The entire SuperMod Level list. Feel free to pick your levels from this configuration file. (WIP)
+- [_SuperModLevelTemplate.cfg](https://github.com/Nicolas-Colombier/SuperMod-Server-Template/blob/main/ServerConfig/_SuperModLevelTemplate.cfg) → The entire SuperMod Level list. Feel free to pick your levels from this configuration file.
 - [LayerRotation.cfg](https://github.com/Nicolas-Colombier/SuperMod-Server-Template/blob/main/ServerConfig/LayerRotation.cfg) → Specify which layer you would like to add or remove from the layer rotation.
-- [LevelRotation.cfg](https://github.com/Nicolas-Colombier/SuperMod-Server-Template/blob/main/ServerConfig/LevelRotation.cfg) → Specify which level you would like to add or remove from the map rotation. (WIP)
+- [LevelRotation.cfg](https://github.com/Nicolas-Colombier/SuperMod-Server-Template/blob/main/ServerConfig/LevelRotation.cfg) → Specify which level you would like to add or remove from the map rotation.
 
 <br>
 
