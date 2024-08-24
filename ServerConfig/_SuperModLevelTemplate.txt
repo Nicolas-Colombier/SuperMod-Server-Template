@@ -1,3 +1,30 @@
 // COMPLETE LIST OF LEVEL IDs FOR SUPERMOD
 
-// IMPORTANT: WIP
+TutorialInfantry
+TutorialHelicopter
+JensensRange
+
+AlBasrah
+Anvil
+Belaya
+BlackCoast
+Chora
+Fallujah
+FoolsRoad
+GooseBay
+Gorodok
+Harju
+Kamdesh
+Kohat
+Kokan
+Lashkar
+Logar
+Manicouagan
+Mestia
+Mutaha
+Narva
+PacificProvingGrounds
+Skorpo
+Sumari
+Tallil
+Yehorivka
