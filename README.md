@@ -12,8 +12,8 @@
 
 <p align="center">
     <a href="https://github.com/Nicolas-Colombier/SuperMod-Server-Template#Instruction">Instruction</a> •
-    <a href="https://github.com/Nicolas-Colombier/SuperMod-Server-Template#Administration">Administration</a> •
-    <a href="https://github.com/Nicolas-Colombier/SuperMod-Server-Template#levels-layers-for-map-voting">Levels/Layers for map voting (NOT WORKING)</a> •
+    <a href="https://github.com/Nicolas-Colombier/SuperMod-Server-Template#Infos">Infos</a> •
+    <a href="https://github.com/Nicolas-Colombier/SuperMod-Server-Template#levels-layers-for-map-voting">Levels/Layers for map voting</a> •
     <a href="https://github.com/Nicolas-Colombier/SuperMod-Server-Template#levels-layers-for-standard-rotation">Levels/Layers for standard rotation</a> •
     <a href="https://github.com/Nicolas-Colombier/SuperMod-Server-Template#miscellaneous">Miscellaneous</a> •
     <a href="https://github.com/Nicolas-Colombier/SuperMod-Server-Template#squadsdm">SquadSDM</a>
@@ -26,24 +26,20 @@
 - "**$word**", it means it's a variable. You must change it to your need.
 
 - You must put the configuration files inside your ServerConfig directory
-  * **Windows** : `C:\$InstallationFolder\SquadGame\ServerConfig\`
-  * **Linux** : `/home/$InstallationFolder/SquadGame/ServerConfig/`
+  * **Windows** : `C:\$InstallationFolde\serverfiles\SquadGame\ServerConfig\`
+  * **Linux** : `/home/$InstallationFolder\serverfiles/SquadGame/ServerConfig/` 
 
-<br>
-
-## Administration
-- [Server.cfg](https://github.com/Nicolas-Colombier/SuperMod-Server-Template/ServerConfig/Server.cfg) → Edit your server information and configuration
-- [CustomOptions.cfg](https://github.com/Nicolas-Colombier/SuperMod-Server-Template/blob/main/ServerConfig/CustomOptions.cfg) → Edit custom options for seeding phase.
-- [Admin.cfg](https://github.com/Nicolas-Colombier/SuperMod-Server-Template/blob/main/ServerConfig/Admins.cfg) → Edit your admin list
-- [MOTD.cfg](https://github.com/Nicolas-Colombier/SuperMod-Server-Template/blob/main/ServerConfig/MOTD.cfg) → Edit your server rules
-- [ServerMessages.cfg](https://github.com/Nicolas-Colombier/SuperMod-Server-Template/blob/main/ServerConfig/ServerMessages.cfg) → Edit your server messages
-- [License.cfg](https://github.com/Nicolas-Colombier/SuperMod-Server-Template/blob/main/ServerConfig/License.cfg) → Add your server license
-- [Rcon.cfg](https://github.com/Nicolas-Colombier/SuperMod-Server-Template/blob/main/ServerConfig/Rcon.cfg) → Edit your Rcon port, password, configuration, etc...
+## Infos
+- Special forces do not benefit from HABs but have an unlimited number of rally points with the usual delay between two placement.
+- Special forces Squad leaders can place their rally on another Squad Leader's rally (buddy rally).
+- Special forces still have access to radios but lack large construction capabilities.
+- Special forces come equipped with advanced gear and light vehicles, giving them a natural advantage over the enemy.
+- [_SuperModKeybinds.md](https://github.com/Nicolas-Colombier/SuperMod-Server-Template/blob/main/ServerConfig/_SuperModKeybinds.md) → Specify the player keybinds for SuperMods
+- [_SuperModDetailedFactions.md](https://github.com/Nicolas-Colombier/SuperMod-Server-Template/blob/main/ServerConfig/_SuperModDetailedFactions.md) → Detailed faction list
 
 <br>
 
 ## Levels/Layers for map voting
-- [VoteConfig.cfg](https://github.com/Nicolas-Colombier/SuperMod-Server-Template/blob/main/ServerConfig/VoteConfig.cfg)  → Specify your map vote configuration such as, the amount of layers, faction selection, game modes, mode redundancy, etc...
 - [ExcludedLayers.cfg](https://github.com/Nicolas-Colombier/SuperMod-Server-Template/blob/main/ServerConfig/ExcludedLayers.cfg) → Specify the layers you do not want to be part of your map vote pool. We recommend to exclude broken layers if you find any and follow our configuration to avoid weird matchup.
 - [ExcludedLevels.cfg](https://github.com/Nicolas-Colombier/SuperMod-Server-Template/blob/main/ServerConfig/ExcludedLevels.cfg) → Specify the Level id that you do not want to be part of your map vote pool. We recommend to exclude broken levels.
 - [ExcludedFactions.cfg](https://github.com/Nicolas-Colombier/SuperMod-Server-Template/blob/main/ServerConfig/ExcludedFactions.cfg) → 
@@ -51,7 +47,6 @@ Specify the factions you do not want to be part of your map vote pool. We recomm
 - [LayerVoting.cfg](https://github.com/Nicolas-Colombier/SuperMod-Server-Template/blob/main/ServerConfig/LayerVoting.cfg) → Specify the layers you would like to have in your map vote pool. We recommend to put the big layers such as AAS, RAAS, INV.
 - [LayerVotingLowPlayers.cfg](https://github.com/Nicolas-Colombier/SuperMod-Server-Template/blob/main/ServerConfig/LayerVotingLowPlayers.cfg) → Specify the low population layers you would like to have in your map vote pool. We recommend to put small maps, Skirmish and Seed layers.
 - [LayerVotingNight.cfg](https://github.com/Nicolas-Colombier/SuperMod-Server-Template/blob/main/ServerConfig/LayerVotingNight.cfg) → Specify the layers you would like to have in your map vote pool when it's nighttime. We recommend to put small maps, Skirmish and Seed layers as well.
-- [_ServerWithVotemap.cfg](https://github.com/Nicolas-Colombier/SuperMod-Server-Template/blob/main/ServerConfig/_ServerWithVotemap.cfg) → Copy this configuration into Server.cfg if you want to have votemap instead of layer rotation 
 
 <br>
 
@@ -67,6 +62,8 @@ Specify the factions you do not want to be part of your map vote pool. We recomm
 - Steam Mod ID : **3293347373**
 - Steam Workshop URL : https://steamcommunity.com/sharedfiles/filedetails/?id=3293347373
 - Make sure to copy these files into the proper directory ! If you have any questions, feel free to create an issue or contact me on Discord : **nom4de**.
+- Linux command line to install the mod : `steamcmd +force_install_dir "/home/YOURUSERNAME/serverfiles/SquadGame/Plugins/Mods/" +login anonymous +workshop_download_item 393380 3293347373 +quit && \
+  mv /home/YOURUSERNAME/serverfiles/SquadGame/Plugins/Mods/steamapps/workshop/content/393380/3293347373 /home/YOURUSERNAME/serverfiles/SquadGame/Plugins/Mods/`
 
 <br>
 
