@@ -26,7 +26,7 @@
 
 # Special Forces
 - United Kingdom Special Forces [SU_UKSF]
-- Unites States Special Forces [SU_USSF]
+- United States Special Forces [SU_USSF]
 - Marine Force Reconnaissance [SU_MFR]
 - French Special Forces [SU_FSF]
 - Ukrainian Special Forces [SU_USF]
