@@ -1,5 +1,5 @@
 # Faction & Units for server config
-- Regular/Irregular
+## Regular/Irregular
 - Australian Defence Forces [SU_ADF]
 - British Army Forces [SU_BAF]
 - Canadian Army Forces [SU_CAF]
@@ -7,7 +7,8 @@
 - United States Marine Corps 2010 [SU_USMC]
 - French Land Army 2010 [SU_FLA]
 - French Land Army 2020 [SU_FLA20]
-- Ukrainian Ground Forces [SU_UGF]
+- Ukrainian Ground Forces 2020 [SU_UGF20]
+- Ukrainian Ground Forces 2024 [SU_UGF24]
 - Israel Defense Forces [SU_IDF]
 - Iraqi Ground Forces [SU_IGF]
 - Eastern Irregular Militia Forces [SU_EIMF]
@@ -24,7 +25,7 @@
 - Palestinian Insurgents [SU_PALINS]
 - People's Liberation Army Ground Forces 2010 [SU_PLAGF]
 
-# Special Forces
+## Special Forces
 - United Kingdom Special Forces [SU_UKSF]
 - United States Special Forces [SU_USSF]
 - Marine Force Reconnaissance [SU_MFR]
